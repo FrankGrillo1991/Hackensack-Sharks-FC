@@ -77,7 +77,7 @@ main p {
 }
 
 .main-logo {
-    height: 200px;  /* Restored to original larger size for desktop */
+    height: 300px;  /* Made even larger for desktop prominence */
     width: auto;
     -o-object-fit: contain;
     object-fit: contain;
