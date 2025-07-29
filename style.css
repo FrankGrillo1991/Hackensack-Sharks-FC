@@ -12,6 +12,10 @@ header {
     text-align: center;
 }
 
+main p {
+    text-align: center;
+}
+
 nav {
     margin-top: 0.5rem
 }
