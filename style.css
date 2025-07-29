@@ -52,7 +52,23 @@ main p {
 .main-logo-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.main-logo {
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.main-logo:hover {
+    transform: scale(1.05);
 }
 
 nav {
@@ -193,5 +209,25 @@ nav a:hover {
     .header-container {
         flex-direction: column;
         text-align: center;
+    }
+    
+    .main-logo-container {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .main-logo {
+        height: 120px;
+        max-width: 90%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    nav a {
+        margin: 0 0.5rem;
+        font-size: 0.9rem;
     }
 }
