@@ -67,7 +67,18 @@ nav a:hover {
     transition: transform 0.2s ease;
 }
 
+.photo video {
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
 .photo img:hover {
+    transform: scale(1.05);
+}
+
+.photo video:hover {
     transform: scale(1.05);
 }
 
