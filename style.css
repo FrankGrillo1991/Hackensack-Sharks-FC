@@ -157,3 +157,10 @@ nav a:hover {
     border-radius: 3px;
     font-family: monospace;
 }
+
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
