@@ -42,7 +42,9 @@ h1 {
     color: #fcd100
 }
 
-
+.highlight, .highlight-uniforms, .highlight-trophies {
+    font-weight: bold;
+}
 main p {
     text-align: center;
 }
