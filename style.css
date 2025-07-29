@@ -66,3 +66,45 @@ nav a:hover {
     max-height: 90%;
     transition: transform 0.2s ease;
 }
+
+/* CSS classes for correcting upside-down images */
+.flip-vertical {
+    transform: scaleY(-1);
+}
+
+.flip-horizontal {
+    transform: scaleX(-1);
+}
+
+.flip-180 {
+    transform: rotate(180deg);
+}
+
+.flip-90-cw {
+    transform: rotate(90deg);
+}
+
+.flip-90-ccw {
+    transform: rotate(-90deg);
+}
+
+/* Ensure hover effects work with flipped images */
+.photo img.flip-vertical:hover {
+    transform: scaleY(-1) scale(1.05);
+}
+
+.photo img.flip-horizontal:hover {
+    transform: scaleX(-1) scale(1.05);
+}
+
+.photo img.flip-180:hover {
+    transform: rotate(180deg) scale(1.05);
+}
+
+.photo img.flip-90-cw:hover {
+    transform: rotate(90deg) scale(1.05);
+}
+
+.photo img.flip-90-ccw:hover {
+    transform: rotate(-90deg) scale(1.05);
+}
