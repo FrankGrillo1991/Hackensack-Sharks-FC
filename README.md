@@ -1,0 +1,1 @@
+Hackensack Sharks FC Gallery website developed with HTML, CSS & JavaScript
