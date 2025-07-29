@@ -49,6 +49,12 @@ main p {
     text-align: center;
 }
 
+.main-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
 nav {
     margin-top: 0.5rem
 }
