@@ -20,6 +20,11 @@ header {
     gap: 1rem;
     padding: 1rem;
 }
+
+.logo {
+    height: 60px;
+    width: auto;
+}
 main p {
     text-align: center;
 }
