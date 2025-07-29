@@ -35,6 +35,14 @@ h1 {
 .highlight {
     color: #00c8ff;
 }
+.highlight-uniforms {
+    color: #ff4d4d
+}
+.highlight-trophies {
+    color: #fcd100
+}
+
+
 main p {
     text-align: center;
 }
