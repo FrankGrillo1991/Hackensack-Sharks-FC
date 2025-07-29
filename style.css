@@ -25,6 +25,12 @@ header {
     height: 60px;
     width: auto;
 }
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
 main p {
     text-align: center;
 }
