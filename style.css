@@ -63,6 +63,13 @@ main p {
     text-align: center;
 }
 
+.history-content h2 {
+    text-align: center;
+    color: #003366; /* Navy Blue */
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
 .main-logo-container {
     display: -webkit-box;      /* Old iOS Safari, Android 4.3- */
     display: -ms-flexbox;      /* IE 10 */
