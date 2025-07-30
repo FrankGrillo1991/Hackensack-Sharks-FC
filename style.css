@@ -74,6 +74,7 @@ main p {
     text-align: center;
     color: #666;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .main-logo-container {
