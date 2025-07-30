@@ -70,6 +70,12 @@ main p {
     font-weight: bold;
 }
 
+.history-content p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
 .main-logo-container {
     display: -webkit-box;      /* Old iOS Safari, Android 4.3- */
     display: -ms-flexbox;      /* IE 10 */
