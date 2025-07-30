@@ -98,9 +98,10 @@ main p {
     width: auto;
     -o-object-fit: contain;
     object-fit: contain;
-    border-radius: 8px;
+  
     -webkit-border-radius: 8px;    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -moz-border-radius: 8px;       /* Firefox 1-3.6 */
+    border-radius: 8px;
     -webkit-transition: -webkit-transform 0.3s ease;
     -moz-transition: -moz-transform 0.3s ease;
     -o-transition: -o-transform 0.3s ease;
@@ -119,11 +120,11 @@ nav {
     margin-top: 1rem;
     background: rgba(255, 255, 255, 0.1);
     padding: 1rem;
-    border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    backdrop-filter: blur(10px);
+    border-radius: 10px;
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px)
 }
 
 nav a {
@@ -131,9 +132,9 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 0.8rem 1.2rem;
-    border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
+    border-radius: 25px;
     display: inline-block;
     font-weight: 500;
     font-size: 1.1rem;
@@ -204,9 +205,9 @@ nav a.current-page:hover {
 
 .photo img {
     width: 100%;
-    border-radius: 8px;
     -webkit-border-radius: 8px;    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -moz-border-radius: 8px;       /* Firefox 1-3.6 */
+    border-radius: 8px;
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.2s ease;
     -moz-transition: -moz-transform 0.2s ease;
@@ -216,9 +217,9 @@ nav a.current-page:hover {
 
 .photo video {
     width: 100%;
-    border-radius: 8px;
     -webkit-border-radius: 8px;    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -moz-border-radius: 8px;       /* Firefox 1-3.6 */
+    border-radius: 8px;
     cursor: pointer;
     -webkit-transition: -webkit-transform 0.2s ease;
     -moz-transition: -moz-transform 0.2s ease;
@@ -361,9 +362,9 @@ nav a.current-page:hover {
     background: #e8f4f8;
     padding: 15px;
     margin: 20px 0;
-    border-radius: 5px;
     -webkit-border-radius: 5px;    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -moz-border-radius: 5px;       /* Firefox 1-3.6 */
+    border-radius: 5px;
     border-left: 4px solid #004080;
 }
 
@@ -380,9 +381,9 @@ nav a.current-page:hover {
 .instruction-box code {
     background: #f0f0f0;
     padding: 2px 4px;
-    border-radius: 3px;
     -webkit-border-radius: 3px;    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
     -moz-border-radius: 3px;       /* Firefox 1-3.6 */
+    border-radius: 3px;
     font-family: monospace;
 }
 
