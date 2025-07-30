@@ -70,7 +70,7 @@ main p {
     font-weight: bold;
 }
 
-.history-content p {
+.history-content h3 {
     text-align: center;
     color: #666;
     margin-bottom: 1rem;
