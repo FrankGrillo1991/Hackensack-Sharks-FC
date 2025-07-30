@@ -52,7 +52,11 @@ h1 {
     color: #fcd100;
 }
 
-.highlight, .highlight-uniforms, .highlight-trophies {
+.highlight-history {
+    color: #2e7d32; /* Dark green for history */
+}
+
+.highlight, .highlight-uniforms, .highlight-trophies, .highlight-history {
     font-weight: bold;
 }
 main p {
